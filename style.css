@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+/*     box-sizing: border-box;
+ */}
+
+:root {
+    --amarillo: #f4d04e;
+    --negro: #000000;
+    --gris: #7f7f7f;
+    --blanco: #ffffff;
+}
+
+body {
+    background-color: var(--amarillo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: var(--blanco);
+    width: 336px;
+    height: 474px;
+    border-radius: 20px;
+    padding: 24px;
+    font-family: "Figtree", sans-serif;
+    border: var(--negro) 1px solid;
+    box-shadow: 8px 8px 0 0 var(--negro) ;
+}
+
+#blog_image {
+    width: 336px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+/* ---- Contenido de la tarjeta ---- */
+
+.content {
+    width: 336px;
+    margin-bottom: 24px;
+}
+
+.content span {
+    width: 82px;
+    height: 29px;
+    background-color: var(--amarillo);
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 6px 12px;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.content #fecha_publicacion {
+    color: var(--negro);
+    font-size: 14px;
+    margin: 18px 0 16px;
+    font-weight: 400;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+
+.content h1:hover {
+    color: var(--amarillo);
+    cursor: pointer;
+}
+
+.content #texto {
+    color: var(--gris);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    /* falta interlineado del texto */
+}
+
+/* ---- User ---- */
+
+.user_id {
+    display: flex;
+    align-items: center;
+}
+
+.user_id img {
+    width: 32px;
+    border-radius: 16px;
+}
+
+.user_id span {
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 14px;
+
+}
