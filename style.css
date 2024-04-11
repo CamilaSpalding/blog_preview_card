@@ -54,7 +54,7 @@ body {
     font-size: 14px;
 }
 
-.content #fecha_publicacion {
+.content #publication_date {
     color: var(--negro);
     font-size: 14px;
     margin: 18px 0 16px;
